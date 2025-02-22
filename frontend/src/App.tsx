@@ -7,7 +7,7 @@ import Dashboard from './pages/Dashboard';
 import BudgetPage from './pages/BudgetPage';
 import ChartsPage from './pages/Charts';
 
-export const BASE_URL = "http://localhost:5000"
+export const BASE_URL = import.meta.env.VITE_BASE_URI;
 
 const App: React.FC = () => {
   return (
